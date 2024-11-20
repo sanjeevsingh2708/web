@@ -41,14 +41,12 @@ fs.readdirSync(__dirname)
     );
   })
   .forEach((file) => {
-    
-    console.log("file "+file);
+
     const model = require(path.join(__dirname, file))(
 
       sequelize,
       Sequelize.DataTypes
     );
-    console.log("==modle"+ model);
     
     db[model.name] = model;
   });
