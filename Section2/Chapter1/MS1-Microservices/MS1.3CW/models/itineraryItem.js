@@ -12,7 +12,7 @@ module.exports = (sequelize, DataTypes) => {
         reference: { model: "itinerary", key: "id" },
       },
       itemId: {
-        typoe: DataTypes.INTEGER,
+        type: DataTypes.INTEGER,
       },
       type: {
         type: DataTypes.STRING,
@@ -24,7 +24,7 @@ module.exports = (sequelize, DataTypes) => {
   );
 
   itineraryItem.associate = (models)=>{
-    itinerary.Item.belongsTo(models.itinerary, {foreighnKey: "itineraryId"})
+    itineraryItem.belongsTo(models.itinerary, {foreighnKey: "itineraryId"})
   }
   return itineraryItem
 };

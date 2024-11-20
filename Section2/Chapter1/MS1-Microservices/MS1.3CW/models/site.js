@@ -1,6 +1,6 @@
 const { sequelize } = require(".");
 
-module.exports = (sequelize, DataTransfer) =>{
+module.exports = (sequelize, DataTypes) =>{
     const site = sequelize.define(
         "site",
         {

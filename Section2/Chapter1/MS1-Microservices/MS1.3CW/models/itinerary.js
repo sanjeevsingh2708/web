@@ -14,4 +14,5 @@ module.exports = (sequelize, DataTypes) => {
       foreignKey: "itineraryId",
     });
   };
+  return itinerary
 };

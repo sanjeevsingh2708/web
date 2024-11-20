@@ -17,7 +17,9 @@ module.exports = (sequelize, DataTypes)=>{
           timestamps: true,
         }
       );
+      console.log("I am in flight js:- "+ flight);
+      
     return flight
 }
 
-module.exports = flight;
+// module.exports = flight;
