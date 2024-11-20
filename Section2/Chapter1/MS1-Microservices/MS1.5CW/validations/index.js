@@ -6,6 +6,7 @@ function validateFlightQueryParams(query){
     if(!query.destination){
         errors.push("destination is required")
     }
+    return errors;
 }
 
 module.exports = {validateFlightQueryParams}
