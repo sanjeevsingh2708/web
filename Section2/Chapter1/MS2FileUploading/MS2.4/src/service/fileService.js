@@ -1,4 +1,4 @@
-import {uploadToCloudinary} from "../config/cloudinary.js"
+import {uploadToCloudinary} from "../../config/cloudinary.js"
 import fs from "fs"
 
 export const cloudinaryUpload = async(file) =>{
