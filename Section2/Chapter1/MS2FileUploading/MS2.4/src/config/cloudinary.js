@@ -33,7 +33,8 @@ export const generateSignature = (paramsToSign) => {
     .map((key) => `${key}=${paramsToSign[key]}`)
     .join("&");
 
-  // Generate the signature using HMAC-SHA256
+  // Generate the signature using HMAC-SHA256 
+  //behind the scene specific terminology
   const signature = crypto
     .createHmac("sha256", apiSecret)
     .update(sortedParams)
