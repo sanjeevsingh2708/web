@@ -4,8 +4,6 @@ const Hotel = require('./models/hotels.models');
 
 initializeDatabase();
 
-
-
 const newHotel = {
   name: 'Lake View',
   category: 'Mid-Range',
@@ -44,7 +42,7 @@ const newHotel1 = {
       isSpaAvailable: true,
       isRestaurantAvailable: true,
       photos: ['https://example.com/hotel2-photo1.jpg', 'https://example.com/hotel2-photo2.jpg'],
-    };
+};
 
 
 // Question(1 & 2) function to add new hotel in database
@@ -114,9 +112,7 @@ async function hotelByCategory(){
  // what will be the range price for Mid Range category. It is not define 
 }
 
-
-//Question 8 Create a function to read all hotels by price range 
-
+//Question 8 Create a function to read all hotels by price range
 async function hotelByPriceRange(range){
     try {
         const hotel = await Hotel.find({priceRange: range})

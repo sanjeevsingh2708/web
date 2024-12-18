@@ -52,7 +52,6 @@ async function createRestaurant(newRestaurant){
 // createRestaurant(newRestaurant2) // Add newRestaurant2 in database
 
 //Question 3 function to read all the database.
-
 async function getAllRestaurants(){
   try {
     const allRestaurants = await Restaurant.find();

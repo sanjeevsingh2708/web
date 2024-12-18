@@ -14,7 +14,5 @@ const initializeDatabase = async () => {
     });
 };
 
-console.log("I am in last");
-
 
 module.exports = { initializeDatabase };
