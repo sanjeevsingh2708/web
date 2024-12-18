@@ -1,0 +1,91 @@
+[
+    {
+      "name": "Lake View",
+      "category": "Mid-Range",
+      "location": "124 Main Street, Anytown",
+      "rating": 3.2,
+      "website": "https://lake-view-example.com",
+      "phoneNumber": "+1234555890",
+      "checkInTime": "2:00 PM",
+      "checkOutTime": "12:00 PM",
+      "amenities": ["Laundry", "Boating"],
+      "priceRange": "$$$ (31-60)",
+      "reservationsNeeded": true,
+      "isParkingAvailable": false,
+      "isWifiAvailable": true,
+      "isPoolAvailable": false,
+      "isSpaAvailable": false,
+      "isRestaurantAvailable": false,
+      "photos": [
+        "https://example.com/hotel1-photo1.jpg",
+        "https://example.com/hotel1-photo2.jpg"
+      ]
+    },
+    {
+      "name": "Lake View",
+      "category": "Mid-Range",
+      "location": "124 Main Street, Anytown",
+      "rating": 3.2,
+      "website": "https://lake-view-example.com",
+      "phoneNumber": "+1234555890",
+      "checkInTime": "2:00 PM",
+      "checkOutTime": "12:00 PM",
+      "amenities": ["Laundry", "Boating"],
+      "priceRange": "$$$ (31-60)",
+      "reservationsNeeded": true,
+      "isParkingAvailable": false,
+      "isWifiAvailable": true,
+      "isPoolAvailable": false,
+      "isSpaAvailable": false,
+      "isRestaurantAvailable": false,
+      "photos": [
+        "https://example.com/hotel1-photo1.jpg",
+        "https://example.com/hotel1-photo2.jpg"
+      ]
+    },
+    {
+      "name": "Sunset Resort",
+      "category": "Resort",
+      "location": "12 Main Road, Anytown",
+      "rating": 4,
+      "website": "https://sunset-example.com",
+      "phoneNumber": "+1299655890",
+      "checkInTime": "2:00 PM",
+      "checkOutTime": "11:00 AM",
+      "amenities": ["Pool", "Gym", "Spa", "Free Breakfast", "Parking"],
+      "priceRange": "$$$$ (61+)",
+      "reservationsNeeded": true,
+      "isParkingAvailable": true,
+      "isWifiAvailable": true,
+      "isPoolAvailable": true,
+      "isSpaAvailable": true,
+      "isRestaurantAvailable": true,
+      "photos": [
+        "https://example.com/resort-photo1.jpg",
+        "https://example.com/resort-photo2.jpg"
+      ]
+    },
+    {
+      "name": "Mountain Retreat",
+      "category": "Boutique",
+      "location": "77 Peak Lane, Hilltop",
+      "rating": 4.5,
+      "website": "https://mountain-retreat-example.com",
+      "phoneNumber": "+12005550123",
+      "checkInTime": "3:00 PM",
+      "checkOutTime": "11:00 AM",
+      "amenities": ["Hiking Trails", "Spa", "Complimentary WiFi"],
+      "priceRange": "$$$ (31-60)",
+      "reservationsNeeded": true,
+      "isParkingAvailable": true,
+      "isWifiAvailable": true,
+      "isPoolAvailable": false,
+      "isSpaAvailable": true,
+      "isRestaurantAvailable": false,
+      "photos": [
+        "https://example.com/mountain-photo1.jpg",
+        "https://example.com/mountain-photo2.jpg"
+      ]
+    }
+  ]
+  
