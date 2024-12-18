@@ -67,4 +67,23 @@ async function updateRestaurantDetails(restaurantName, dataToUpdate){
         throw error;
     }
 }
-updateRestaurantDetails("Somi", {name: "Som Sarovar"})
+// updateRestaurantDetails("Somi", {name: "Som Sarovar"})
+
+//function to find restaurat by phonNo and update some detils
+
+async function updateRestaurantByNumber(phoneNum, dataToUpdate){
+    try {
+        const updatedRestaurant = await Restaurant.findOneAndUpdate(
+            {
+                phoneNumber: phoneNum
+            },
+            dataToUpdate,
+            {new:true}
+        )
+        console.log(updatedRestaurant)
+    } catch (error) {
+        throw error;
+    }
+}
+
+updateRestaurantByNumber("+1288997392", {isDeliveryAvailable:true});
