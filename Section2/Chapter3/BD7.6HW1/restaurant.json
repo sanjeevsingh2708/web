@@ -1,0 +1,105 @@
+[
+  {
+    "name": "Somi",
+    "cuisine": ["Greek"],
+    "location": "11 Main Road, Gem",
+    "rating": 4.3,
+    "website": "https://somi-example.com",
+    "phoneNumber": "+1234997390",
+    "openHours": "Tue-Sun: 11:00 AM - 10:00 PM",
+    "priceRange": "$$ (11-30)",
+    "reservationsNeeded": false,
+    "isDeliveryAvailable": true,
+    "menuUrl": "https://somi-example.com/menu",
+    "photos": [
+      "https://example.com/somi-photo1.jpg",
+      "https://example.com/somi-photo2.jpg"
+    ]
+  },
+  {
+    "name": "Bella Italia",
+    "cuisine": ["Italian"],
+    "location": "22 Orchard Street, Riverdale",
+    "rating": 4.5,
+    "website": "https://bella-italia-example.com",
+    "phoneNumber": "+9876543210",
+    "openHours": "Mon-Sat: 12:00 PM - 11:00 PM",
+    "priceRange": "$$$ (31-60)",
+    "reservationsNeeded": true,
+    "isDeliveryAvailable": false,
+    "menuUrl": "https://bella-italia-example.com/menu",
+    "photos": [
+      "https://example.com/bella-photo1.jpg",
+      "https://example.com/bella-photo2.jpg"
+    ]
+  },
+  {
+    "name": "Tandoori Spice",
+    "cuisine": ["Indian"],
+    "location": "45 Curry Lane, SpiceTown",
+    "rating": 4.8,
+    "website": "https://tandoori-spice-example.com",
+    "phoneNumber": "+1123456789",
+    "openHours": "Everyday: 11:00 AM - 10:00 PM",
+    "priceRange": "$$ (11-30)",
+    "reservationsNeeded": false,
+    "isDeliveryAvailable": true,
+    "menuUrl": "https://tandoori-spice-example.com/menu",
+    "photos": [
+      "https://example.com/tandoori-photo1.jpg",
+      "https://example.com/tandoori-photo2.jpg"
+    ]
+  },
+  {
+    "name": "Zen Sushi",
+    "cuisine": ["Japanese"],
+    "location": "78 Sushi Blvd, Metro City",
+    "rating": 4.7,
+    "website": "https://zen-sushi-example.com",
+    "phoneNumber": "+1098765432",
+    "openHours": "Wed-Sun: 12:00 PM - 9:00 PM",
+    "priceRange": "$$$$ (61+)",
+    "reservationsNeeded": true,
+    "isDeliveryAvailable": false,
+    "menuUrl": "https://zen-sushi-example.com/menu",
+    "photos": [
+      "https://example.com/zen-photo1.jpg",
+      "https://example.com/zen-photo2.jpg"
+    ]
+  },
+  {
+    "name": "Casa Fiesta",
+    "cuisine": ["Mexican"],
+    "location": "99 Fiesta Lane, Newtown",
+    "rating": 4.2,
+    "website": "https://casa-fiesta-example.com",
+    "phoneNumber": "+1012345678",
+    "openHours": "Tue-Sat: 10:00 AM - 9:30 PM",
+    "priceRange": "$ (0-10)",
+    "reservationsNeeded": false,
+    "isDeliveryAvailable": true,
+    "menuUrl": "https://casa-fiesta-example.com/menu",
+    "photos": [
+      "https://example.com/casa-photo1.jpg",
+      "https://example.com/casa-photo2.jpg"
+    ]
+  },
+  {
+    "name": "Yo China",
+    "cuisine": ["Chinese", "Italian"],
+    "location": "MG Road, Bangalore",
+    "rating": 3.9,
+    "website": "https://yo-example.com",
+    "phoneNumber": "+1288997392",
+    "openHours": "Tue-Sun: 10:00 AM - 11:00 PM",
+    "priceRange": "$$$ (31-60)",
+    "reservationsNeeded": true,
+    "isDeliveryAvailable": false,
+    "menuUrl": "https://yo-example.com/menu",
+    "photos": [
+      "https://example.com/yo-photo1.jpg",
+      "https://example.com/yo-photo2.jpg",
+      "https://example.com/yo-photo3.jpg"
+    ]
+  }
+]
