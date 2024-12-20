@@ -1,57 +1,66 @@
 require('./db/db.connect');
+const fs = require('fs');
+const express = require("express")
+const app = express()
+const Movie = require('./models/movies.models');
+const jsonData = fs.readFileSync('movies.json', 'utf-8')
+const moviesData = JSON.parse(jsonData);
 
-const Post = require('./models/post.model');
-const User = require('./models/user.model'); 
+app.use(express.json())
 
-// Dummy data for user
-const userData ={
-    name:"John",
-    email:"johnEgmail.com"
+//funstion to seed data from json file
+// function seeData(){
+//     for(const movieData of moviesData){
+//         try {
+//             const newMovie = new Movie({
+//                 title: movieData.title,
+//                 releaseYear: movieData.releaseYear,
+//                 genre: movieData.genre,
+//                 director: movieData.director,
+//                 actors: movieData.actors,
+//                 language: movieData.language,
+//                 country: movieData.country,
+//                 rating: movieData.rating,
+//                 plot: movieData.plot,
+//                 awards: movieData.awards,
+//                 posterUrl: movieData.posterUrl,
+//                 trailerUrl: movieData.trailerUrl,
+//             })
+//             newMovie.save();
+//         } catch (error) {
+//             throw error
+//         }
+//     }
+// }
+
+// // seeData();
+
+ 
+// function to add new movie in dataBase
+async function createMovie(newMovie){
+  try{
+    const movie = new Movie(newMovie);
+    const savedMovie = await movie.save();
+    console.log(`Movie added sucessfully \n ${savedMovie}`);
+  }catch(error){
+    throw error;
+  }
 }
 
-const addUser = async ()=>{
+
+// api to create new movie in database.
+app.post("/movies", async(req, res)=>{
     try {
-        const newUser = new User(userData)
-        await newUser.save()
-        console.log("user added sucessfully")
-        console.log(newUser)
+        const savedMovie = await createMovie(req.body)
+        console.log("I am in endpoint")
+        res.status(201).json({message: "Movie added sucessfully", movie: savedMovie})
     } catch (error) {
-        throw error
+        res.status(500).json({error: "Failed to add mvoie", error:error})
     }
-}
+})
 
-// addUser() // invoke the function to add new user in db
+const PORT = 3000;
+app.listen(PORT, ()=>{
+    console.log(`Server is running on ${PORT}`);
+})
 
-// Dummy data for post
-const postData = {
-    title: "Greeting",
-    content: "Have a good day!",
-    author: '6763ecc1aa5496ca2109d5fb',
-}
-
-// function to add post data in db
-const addPost = async()=>{
-    try {
-        const newPost = new Post(postData)
-        await newPost.save()
-        console.log("post added sucessfully")
-        console.log(newPost)
-    } catch (error) {
-        throw error;
-    }
-}
-
-// addPost()
-
-// Get all the posts
-
-const getAllPosts = async()=>{
-    try {
-        const allPosts = await Post.find().populate("author");
-        console.log("All Posts:- ", allPosts)
-    } catch (error) {
-        throw error;
-    }
-}
-
-getAllPosts()

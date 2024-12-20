@@ -1,0 +1,45 @@
+[
+    {
+      "title": "Dilwale Dulhania Le Jayenge",
+      "releaseYear": 1995,
+      "genre": ["Romance", "Drama"],
+      "director": "Aditya Chopra",
+      "actors": ["Shah Rukh Khan", "Kajol"],
+      "language": "Hindi",
+      "country": "India",
+      "rating": 9.1,
+      "plot": "A young man and woman fall in love on a Europe trip.",
+      "awards": "Multiple Filmfare Awards",
+      "posterUrl": "https://example.com/poster1.jpg",
+      "trailerUrl": "https://example.com/trailer1.mp4"
+    },
+    {
+      "title": "Bahubali: The Beginning",
+      "releaseYear": 2015,
+      "genre": ["Action", "Fantasy"],
+      "director": "S. S. Rajamouli",
+      "actors": ["Prabhas", "Anushka Shetty"],
+      "language": "Telugu",
+      "country": "India",
+      "rating": 8.1,
+      "plot": "A man embarks on a journey to rescue his mother from a tyrant.",
+      "awards": "National Film Award",
+      "posterUrl": "https://example.com/poster2.jpg",
+      "trailerUrl": "https://example.com/trailer2.mp4"
+    },
+    {
+      "title": "Lagaan",
+      "releaseYear": 2001,
+      "genre": ["Drama", "Sports"],
+      "director": "Ashutosh Gowariker",
+      "actors": ["Aamir Khan", "Gracy Singh"],
+      "language": "Hindi",
+      "country": "India",
+      "rating": 8.2,
+      "plot": "A group of villagers challenge British officers to a cricket match.",
+      "awards": "Oscar Nomination",
+      "posterUrl": "https://example.com/poster3.jpg",
+      "trailerUrl": "https://example.com/trailer3.mp4"
+    } 
+  ]
+  
