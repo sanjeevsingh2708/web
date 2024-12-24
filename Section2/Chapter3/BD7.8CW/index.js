@@ -8,10 +8,11 @@ const moviesData = JSON.parse(jsonData);
 
 app.use(express.json())
 
-//funstion to seed data from json file
+//function to seed data from json file
 // function seeData(){
 //     for(const movieData of moviesData){
 //         try {
+
 //             const newMovie = new Movie({
 //                 title: movieData.title,
 //                 releaseYear: movieData.releaseYear,
@@ -58,6 +59,10 @@ app.post("/movies", async(req, res)=>{
         res.status(500).json({error: "Failed to add mvoie", error:error})
     }
 })
+ 
+
+
+
 
 const PORT = 3000;
 app.listen(PORT, ()=>{
