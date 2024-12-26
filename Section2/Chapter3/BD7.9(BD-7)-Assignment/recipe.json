@@ -1,0 +1,127 @@
+[
+  {
+    "title": "Spaghetti Carbonara",
+    "author": "Chef Mario",
+    "difficulty": "Intermediate",
+    "prepTime": 15,
+    "cookTime": 20,
+    "ingredients": [
+      "Spaghetti",
+      "Eggs",
+      "Parmesan Cheese",
+      "Pancetta",
+      "Black Pepper",
+      "Salt"
+    ],
+    "instructions": [
+      "Cook spaghetti according to package instructions.",
+      "Fry pancetta until crispy.",
+      "Whisk eggs with Parmesan cheese in a bowl.",
+      "Mix cooked spaghetti with pancetta, then stir in the egg mixture.",
+      "Season with black pepper and salt.",
+      "Serve hot."
+    ],
+    "imageUrl": "https://example.com/images/spaghetti-carbonara.jpg"
+  },
+  {
+    "title": "Chicken Tikka Masala",
+    "author": "Chef Ayesha",
+    "difficulty": "Difficult",
+    "prepTime": 25,
+    "cookTime": 20,
+    "ingredients": [
+      "Chicken",
+      "Yogurt",
+      "Garlic",
+      "Ginger",
+      "Tomato Puree",
+      "Cream",
+      "Spices (Cumin, Coriander, Turmeric, Garam Masala)"
+    ],
+    "instructions": [
+      "Marinate chicken in yogurt, garlic, ginger, and spices.",
+      "Grill the chicken until cooked.",
+      "Prepare a sauce with tomato puree, cream, and spices.",
+      "Add grilled chicken to the sauce and simmer.",
+      "Serve with naan or rice."
+    ],
+    "imageUrl": "https://example.com/images/chicken-tikka-masala.jpg"
+  },
+  {
+    "title": "Classic Pancakes",
+    "author": "Chef Emma",
+    "difficulty": "Easy",
+    "prepTime": 10,
+    "cookTime": 15,
+    "ingredients": [
+      "Flour",
+      "Milk",
+      "Eggs",
+      "Sugar",
+      "Baking Powder",
+      "Butter"
+    ],
+    "instructions": [
+      "Mix dry ingredients in a bowl.",
+      "Whisk wet ingredients in another bowl.",
+      "Combine wet and dry ingredients.",
+      "Heat a skillet and pour batter.",
+      "Cook until golden brown on both sides.",
+      "Serve with syrup or toppings of choice."
+    ],
+    "imageUrl": "https://example.com/images/classic-pancakes.jpg"
+  },
+  {
+    "title": "Vegetable Stir-Fry",
+    "author": "Chef Li",
+    "difficulty": "Easy",
+    "prepTime": 10,
+    "cookTime": 10,
+    "ingredients": [
+      "Broccoli",
+      "Carrots",
+      "Bell Peppers",
+      "Soy Sauce",
+      "Garlic",
+      "Ginger",
+      "Oil"
+    ],
+    "instructions": [
+      "Chop all vegetables into bite-sized pieces.",
+      "Heat oil in a wok.",
+      "Stir-fry garlic and ginger until fragrant.",
+      "Add vegetables and stir-fry until tender.",
+      "Add soy sauce and mix well.",
+      "Serve hot over rice or noodles."
+    ],
+    "imageUrl": "https://example.com/images/vegetable-stir-fry.jpg"
+  },
+  {
+    "title": "Chocolate Chip Cookies",
+    "author": "Chef Sophia",
+    "difficulty": "Intermediate",
+    "prepTime": 20,
+    "cookTime": 12,
+    "ingredients": [
+      "Flour",
+      "Butter",
+      "Sugar",
+      "Brown Sugar",
+      "Eggs",
+      "Vanilla Extract",
+      "Baking Soda",
+      "Salt",
+      "Chocolate Chips"
+    ],
+    "instructions": [
+      "Preheat oven to 350°F (175°C).",
+      "Cream butter and sugars together.",
+      "Add eggs and vanilla extract to the mixture.",
+      "Mix dry ingredients separately and combine with wet ingredients.",
+      "Fold in chocolate chips.",
+      "Scoop dough onto a baking sheet and bake for 10-12 minutes.",
+      "Cool on a rack before serving."
+    ],
+    "imageUrl": "https://example.com/images/chocolate-chip-cookies.jpg"
+  }
+]
